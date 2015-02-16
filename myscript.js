@@ -1,14 +1,4 @@
-﻿function clickedKindle()
+﻿function clickedButton()
 {
-ga('send', 'event', 'clickedKindle', 'click');
-}
-
-function clickedColor()
-{
-ga('send', 'event', 'clickedColor', 'click');
-}
-
-function clickedBW()
-{
-ga('send', 'event', 'clickedBW', 'click');
+ga('send', 'event', 'clickedButton', 'click');
 }
