@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-	background-color: rgba(13,22,45,1);
+	background-color: rgba(185,155,138,1);
 	font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,sans-serif;
 }
 
@@ -236,14 +236,14 @@ h1 {
 	-webkit-margin-end: 0px;
 	font-weight: bold;
 	font-size: 3em;
-	color: #FF9100;
+	color: #65615C;
 	text-align:center;
 }
 
 h2 {
 	font-weight: bold;
-	font-size: 1.2em;
-	color: #FFC400;
+	font-size: 1.6em;
+	color: #FFD18D;
 	text-align:center;
 }
 
@@ -253,27 +253,27 @@ display: block;
 -webkit-margin-after: 0.83em;
 -webkit-margin-start: 0px;
 -webkit-margin-end: 0px;
-font-size: 1em;
+font-size: 1.4em;
 font-weight: normal;
-color: white;
+color: #3C2401;
 }
 
 .myButton {
 	-moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
 	-webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
-	background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
-	background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
-	background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
-	background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
-	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
-	background-color:#33bdef;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #FFD18D), color-stop(1, #65615C));
+	background:-moz-linear-gradient(top, #FFD18D 5%, #65615C 100%);
+	background:-webkit-linear-gradient(top, #FFD18D 5%, #65615C 100%);
+	background:-o-linear-gradient(top, #FFD18D 5%, #65615C 100%);
+	background:-ms-linear-gradient(top, #FFD18D 5%, #65615C 100%);
+	background:linear-gradient(to bottom, #FFD18D 5%, #65615C 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD18D', endColorstr='#65615C',GradientType=0);
+	background-color:#FFD18D;
 	-moz-border-radius:9px;
 	-webkit-border-radius:9px;
 	border-radius:9px;
-	border:1px solid #057fd0;
+	border:1px solid #65615C;
 
 display:inline-block;
 height: 25px;
@@ -284,13 +284,25 @@ width:250px;
 text-align: center;
 	
 	cursor:pointer;
-	color:#ffffff;
+	color:#3C2401;
 	font-family:Verdana;
 	font-size:1.2em;
 	font-weight:bold;
 	padding:7px 24px;
 	text-decoration:none;
 	text-shadow:0px -1px 0px #5b6178;
+}
+
+.centretext {
+text-align:center;
+display: block;
+-webkit-margin-before: 0.83em;
+-webkit-margin-after: 0.83em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-size: 1.4em;
+font-weight: normal;
+color: #FFD18D;
 }
 
 @media screen and (max-width: 751px) {
